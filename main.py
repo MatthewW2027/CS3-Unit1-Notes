@@ -1,5 +1,21 @@
+# main() is defined with no arguments 
+# def Name_of_function(): 
+#   indent for code that belongs to function 
 def main():
-    print("hello world")
+    class_size = 7
+    # Quotes for strings
+    # prtinting with type casting and concatenating 
+    print("hello world " + str(class_size) + "!")
+    # single apostraphes 
+    print('hello world')
+    # triple quotes 
+    print("""hello world""")
+
+    # prtinting with fStrings 
+    print(f"hellow class of {class_size}!")
+
+    name = "Matthew" 
+    print(f"my name is {name} and I am in a class of {class_size} students")
 
 
 if __name__ == "__main__":
