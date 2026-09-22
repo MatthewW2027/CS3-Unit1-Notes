@@ -2,6 +2,10 @@
 # def Name_of_function(): 
 #   indent for code that belongs to function 
 def main():
+    name = "Matthew"
+    other_name = "Danny"
+    function_with_args(name)
+    function_with_args(other_name)
     class_size = 7
     # Quotes for strings
     # prtinting with type casting and concatenating 
@@ -14,8 +18,20 @@ def main():
     # prtinting with fStrings 
     print(f"hellow class of {class_size}!")
 
-    name = "Matthew" 
-    print(f"my name is {name} and I am in a class of {class_size} students")
+
+    number = "5.0" 
+    print(f"My number is {int(float(number))}")
+    print(f"My number is {type(int(float(number)))}")
+    name_of_function()
+    print("all done!")
+
+def name_of_function():
+      # sample function to show structure 
+      print("good example!")
+
+def function_with_args(name):
+      print(f"Hello, thank you for your focus {name}")
+    
 
 
 if __name__ == "__main__":
