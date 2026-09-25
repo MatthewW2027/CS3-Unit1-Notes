@@ -1,7 +1,28 @@
 # main() is defined with no arguments 
 # def Name_of_function(): 
 #   indent for code that belongs to function 
+#   return variable_thing    --> this is optional. If we don't write return it will automatically return None 
+
+
+def greeting(name):
+    return f"Hello, {name}"
+
+def make_a_fraction(x,y):
+      return f"{x}/{y}"
+
+def put_under_one(y,x=1):
+      return f"{x}/{y}"
+
+def put_under_one_alt(x):
+      return f"1/(x)"
+
 def main():
+    # We can store return output into variables for later use
+    my_greeting = greeting("Matthew")
+    print (my_greeting)
+
+    print(make_a_fraction(15,4)) 
+
     name = "Matthew"
     other_name = "Danny"
     function_with_args(name)
@@ -31,9 +52,8 @@ def name_of_function():
 
 def function_with_args(name):
       print(f"Hello, thank you for your focus {name}")
-    
 
-
+# we pass arguments
 if __name__ == "__main__":
         main()
 
